@@ -4,6 +4,7 @@
     "jsr:@hono/hono@*": "4.11.9",
     "npm:@tailwindcss/vite@^4.1.18": "4.1.18_vite@7.2.2__sass-embedded@1.93.3__picomatch@4.0.3_sass-embedded@1.93.3",
     "npm:@types/nunjucks@^3.2.0": "3.2.6",
+    "npm:feather-icons@^4.29.2": "4.29.2",
     "npm:nunjucks@^3.2.4": "3.2.4",
     "npm:sass-embedded@^1.93.3": "1.93.3",
     "npm:tailwindcss@^4.1.18": "4.1.18",
@@ -500,11 +501,18 @@
         "readdirp"
       ]
     },
+    "classnames@2.5.1": {
+      "integrity": "sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow=="
+    },
     "colorjs.io@0.5.2": {
       "integrity": "sha512-twmVoizEW7ylZSN32OgKdXRmo1qg+wT5/6C3xu5b9QsWzSFAhHLn2xd8ro0diCsKfCj1RdaTP/nrcW+vAoQPIw=="
     },
     "commander@5.1.0": {
       "integrity": "sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg=="
+    },
+    "core-js@3.48.0": {
+      "integrity": "sha512-zpEHTy1fjTMZCKLHUZoVeylt9XrzaIN2rbPXEt0k+q7JE5CkCZdo6bNq55bn24a69CH7ErAVLKijxJja4fw+UQ==",
+      "scripts": true
     },
     "detect-libc@1.0.3": {
       "integrity": "sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==",
@@ -560,6 +568,13 @@
       ],
       "optionalPeers": [
         "picomatch@4.0.3"
+      ]
+    },
+    "feather-icons@4.29.2": {
+      "integrity": "sha512-0TaCFTnBTVCz6U+baY2UJNKne5ifGh7sMG4ZC2LoBWCZdIyPa+y6UiR4lEYGws1JOFWdee8KAsAIvu0VcXqiqA==",
+      "dependencies": [
+        "classnames",
+        "core-js"
       ]
     },
     "fill-range@7.1.1": {
@@ -967,6 +982,7 @@
       "jsr:@hono/hono@*",
       "npm:@tailwindcss/vite@^4.1.18",
       "npm:@types/nunjucks@^3.2.0",
+      "npm:feather-icons@^4.29.2",
       "npm:nunjucks@^3.2.4",
       "npm:sass-embedded@^1.93.3",
       "npm:tailwindcss@^4.1.18",

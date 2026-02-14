@@ -9,6 +9,7 @@
     "nodeModulesDir": "auto",
     "imports": {
         "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.18",
+        "feather-icons": "npm:feather-icons@^4.29.2",
         "hono": "jsr:@hono/hono",
         "@types/nunjucks": "npm:@types/nunjucks@^3.2",
         "nunjucks": "npm:nunjucks@^3.2.4",

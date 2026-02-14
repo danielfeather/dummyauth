@@ -3,7 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Apps | DummyAuth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body class="w-full min-h-dvh bg-gray-100 font-[Inter] font-semibold">
+    <header class="bg-white shadow-md shadow-blue-100 text-2xl w-full py-4">
+      <nav class="container mx-auto px-4">
+        <i data-feather="key"></i> DummyAuth
+      </nav>
+    </header>
+    <main class="mt-8 container mx-auto px-4">
+      <h1 class="font-bold text-2xl">My Apps</h1>
+      <div class="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {% for value in range(0, 10) %} {% include "app.html" without context %}
+        {% endfor %}
+      </div>
+    </main>
+    <script type="module" src="http://localhost:5173/@vite/client"></script>
+    <script type="module" src="http://localhost:5173/client/main.ts"></script>
+  </body>
 </html>
